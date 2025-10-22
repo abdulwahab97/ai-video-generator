@@ -1,0 +1,53 @@
+# === PYTHON ===
+__pycache__/
+*.py[cod]
+*.egg-info/
+.env
+venv/
+env/
+.venv/
+.DS_Store
+
+# === DJANGO / FASTAPI ===
+*.sqlite3
+migrations/
+media/
+staticfiles/
+logs/
+celerybeat-schedule
+*.log
+
+# === NODE / REACT FRONTEND ===
+node_modules/
+build/
+dist/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.cache/
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# === AI / MEDIA FILES ===
+assets/generated/
+assets/videos/
+*.mp4
+*.avi
+*.mov
+*.wav
+*.webm
+*.png
+*.jpg
+*.jpeg
+*.gif
+data/
+tmp/
+
+# === OS / EDITOR ===
+.vscode/
+.idea/
+*.swp
+*.swo
+Thumbs.db
